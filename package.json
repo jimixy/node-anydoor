@@ -1,0 +1,30 @@
+{
+  "name": "day03",
+  "version": "0.1.0",
+  "description": "Tiny NodeJs static Web server",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor":"bin/anydoor"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "chalk": "^2.4.1",
+    "eslint": "^5.2.0",
+    "pre-commit": "^1.2.2"
+  }
+}
