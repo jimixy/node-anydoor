@@ -1,10 +1,10 @@
 {
-  "name": "day03",
+  "name": "jimi-anydoor",
   "version": "0.1.0",
   "description": "Tiny NodeJs static Web server",
   "main": "src/app.js",
   "bin": {
-    "anydoor":"bin/anydoor"
+    "anydoor": "bin/anydoor"
   },
   "scripts": {
     "lint": "eslint .",
@@ -15,7 +15,7 @@
     "lint"
   ],
   "keywords": [],
-  "author": "",
+  "author": "jimixy",
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.0.11",
@@ -26,5 +26,13 @@
     "chalk": "^2.4.1",
     "eslint": "^5.2.0",
     "pre-commit": "^1.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimixy/node-anydoor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimixy/node-anydoor/issues"
+  },
+  "homepage": "https://github.com/jimixy/node-anydoor#readme"
 }
